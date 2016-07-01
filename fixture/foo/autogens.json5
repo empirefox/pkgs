@@ -1,0 +1,29 @@
+{
+  tagsjson: {
+    Command: 'tagsjson',
+    Presets: {
+      all: {
+        VIEW: 'dev',
+        MGR: 'dev',
+      },
+      view: {
+        VIEW: 'dev',
+      },
+    },
+    Ignore: ['basic'],
+    Types: {
+      Foo: {
+        VIEW: 'de',
+        MGR: 'dev',
+      },
+      Bar: '&all'
+    }
+  },
+
+  pkshow: {
+    Command: 'pkshow',
+    Types: {
+      Foo: ['ID', 'Name']
+    }
+  }
+}
